@@ -13,7 +13,9 @@ This library hopefully solves a lot of pain of dealing with downloading and retu
 Pending publishing...
 
 ```bash
+pip install tvic_gtfs_manager
 ```
+or download from the releases
 
 ## Usage
 For the simplest usage:
