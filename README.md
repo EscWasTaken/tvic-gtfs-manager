@@ -9,9 +9,6 @@ TVIC GTFS Manager is a highly specific library for a highly specific problem. [T
 This library hopefully solves a lot of pain of dealing with downloading and returning data for a operating branch.
 
 ## Installation
-
-Pending publishing...
-
 ```bash
 pip install tvic_gtfs_manager
 ```
