@@ -1,5 +1,4 @@
 """TVIC GTFS Manager is a highly specific library for a highly specific problem."""
 
-__version__ = "2026.2.2"  # February 2026 Release 1
-
+from ._version import __version__
 from .main import getGTFS

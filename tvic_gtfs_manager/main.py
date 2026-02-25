@@ -5,6 +5,8 @@ import inspect
 from pathlib import Path as LibPath
 from zipfile import ZipFile
 
+from ._version import __version__
+
 # External Libraries
 import requests
 import pandas as pd
