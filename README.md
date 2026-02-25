@@ -1,6 +1,6 @@
 # TVIC GTFS Manager
 
-*2026, February, Release 1*
+*2026, February, Release 2*
 
 ---
 ## About
@@ -29,9 +29,9 @@ from tvic_gtfs_manager import getGTFS
 from pathlib import Path as LibPath
 
 getGTFS(
-    URL="https://opendata.transport.vic.gov.au/dataset/3f4e292e-7f8a-4ffe-831f-1953be0fe448/resource/fb152201-859f-4882-9206-b768060b50ad/download/gtfs.zip",
-    branch=2,
-    filepath=LibPath(LibPath.cwd(), "gtfs.zip"),
+    URL="https://opendata.transport.vic.gov.au/dataset/3f4e292e-7f8a-4ffe-831f-1953be0fe448/resource/fb152201-859f-4882-9206-b768060b50ad/download/gtfs.zip", # GTFS Schedule Zip URL
+    branch=2, # Metropolitan Trains
+    filepath=LibPath(LibPath.cwd(), "gtfs.zip"), # Path to save to disk
     )
 ```
 
